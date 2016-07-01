@@ -3,9 +3,10 @@
 header ul li
 {
   list-style-type: none;
-  display: inline-block;
   position: fixed;
   color: white;
+  font-family: "Open Sans";
+  font-weight: 800;
 }
 
 /*************************************HEADER UL LI RELATIVE POSITION***************************/
@@ -17,6 +18,8 @@ header ul li
   left: 250px;
   bottom: 55px;
   font-family: sans-serif;
+  margin-left: 30px;
+  font-size: 14px;
 
 }
 
@@ -24,9 +27,24 @@ header ul li
 
 button
 {
-  position: fixed;
-  top: 10px;
-  right: 50px;
+  position: relative;
+  bottom: 105px;
+  left: 85%;
+  /*vertical-align: middle;*/
+  height: 40px;
+  min-width: 40px;
+  padding: 0.20px;
+  line-height: 38px;
+  outline: none;
+  text-align: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  color: white;
+  border: 1px white solid;
+  width: 150px;
 }
 
 /************************************************HEADER*********************************************/
@@ -34,6 +52,7 @@ button
 header
 {
   background-color: #F56B2A;
+  height: 60px;
 }
 
 /***************************************************BODY*******************************************/
@@ -47,13 +66,39 @@ body
 
 /******************************************************IMG**********************************************/
 
-img
+#logo
 {
   position: relative;
-  left: 50px;
+  left: 120px;
 }
 
+/*********************************************a li:hover***************************************************/
 a li:hover
 {
   text-decoration: underline;
+
+}
+
+/**************************************************LI************************************************/
+
+li
+{
+  list-style-type: none;
+}
+
+/***************************************************************.REGION*************************/
+
+.region
+{
+  position: absolute;
+  right: 150px;
+}
+
+.carte
+{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  right: 50px;
+  bottom: 50px;
 }
