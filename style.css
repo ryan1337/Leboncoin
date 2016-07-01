@@ -1,26 +1,42 @@
+/************************************HEADER UL LI FIXED POSITION****************************************/
+
 header ul li
 {
   list-style-type: none;
   display: inline-block;
-  position: relative;
-  bottom: 50px;
-  left: 250px;
+  position: fixed;
   color: white;
 }
 
+/*************************************HEADER UL LI RELATIVE POSITION***************************/
 
+header ul li
+{
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  bottom: 55px;
+  font-family: sans-serif;
+
+}
+
+/******************************************BUTTON*****************************************************/
 
 button
 {
-  position: absolute;
+  position: fixed;
   top: 10px;
   right: 50px;
 }
+
+/************************************************HEADER*********************************************/
 
 header
 {
   background-color: #F56B2A;
 }
+
+/***************************************************BODY*******************************************/
 
 body
 {
@@ -29,8 +45,15 @@ body
   margin-left: 0px;
 }
 
+/******************************************************IMG**********************************************/
+
 img
 {
   position: relative;
   left: 50px;
+}
+
+a li:hover
+{
+  text-decoration: underline;
 }
