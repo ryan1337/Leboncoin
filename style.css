@@ -159,7 +159,7 @@ ul a{
     }
 
     #logo {
-      position: relative;
+      position: relative; 
       left: 90px;
     }
 }
